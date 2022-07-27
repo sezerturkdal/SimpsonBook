@@ -50,15 +50,19 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GXp-dw-Xi4">
                                 <rect key="frame" x="40" y="153" width="334" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="334" id="PD0-DD-nug"/>
+                                    <constraint firstAttribute="height" constant="275" id="eee-wq-Ifv"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LrF-Sy-mWV">
-                                <rect key="frame" x="30" y="488" width="354" height="24"/>
+                                <rect key="frame" x="30" y="540" width="354" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnj-oV-M5h">
-                                <rect key="frame" x="30" y="552" width="354" height="21"/>
+                                <rect key="frame" x="30" y="604" width="354" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="yVF-kD-Z9C"/>
                                 </constraints>
@@ -74,11 +78,10 @@
                             <constraint firstItem="LrF-Sy-mWV" firstAttribute="leading" secondItem="mCd-AX-Oq7" secondAttribute="leading" constant="30" id="F4O-nc-MDQ"/>
                             <constraint firstItem="mCd-AX-Oq7" firstAttribute="trailing" secondItem="hnj-oV-M5h" secondAttribute="trailing" constant="30" id="J0g-2U-jjg"/>
                             <constraint firstItem="hnj-oV-M5h" firstAttribute="leading" secondItem="mCd-AX-Oq7" secondAttribute="leading" constant="30" id="SiQ-Mb-Obj"/>
-                            <constraint firstItem="LrF-Sy-mWV" firstAttribute="top" secondItem="GXp-dw-Xi4" secondAttribute="bottom" constant="60" id="SzT-Hj-2HD"/>
+                            <constraint firstItem="LrF-Sy-mWV" firstAttribute="top" secondItem="GXp-dw-Xi4" secondAttribute="bottom" constant="112" id="SzT-Hj-2HD"/>
                             <constraint firstItem="mCd-AX-Oq7" firstAttribute="trailing" secondItem="GXp-dw-Xi4" secondAttribute="trailing" constant="40" id="jNC-e2-LGY"/>
-                            <constraint firstItem="mCd-AX-Oq7" firstAttribute="bottom" secondItem="hnj-oV-M5h" secondAttribute="bottom" constant="289" id="mAb-LQ-B03"/>
+                            <constraint firstItem="mCd-AX-Oq7" firstAttribute="bottom" secondItem="hnj-oV-M5h" secondAttribute="bottom" constant="237" id="mAb-LQ-B03"/>
                             <constraint firstItem="hnj-oV-M5h" firstAttribute="top" secondItem="LrF-Sy-mWV" secondAttribute="bottom" constant="40" id="o8N-o8-bYH"/>
-                            <constraint firstItem="LrF-Sy-mWV" firstAttribute="centerX" secondItem="KgT-R8-Lji" secondAttribute="centerX" id="pdz-jK-GTV"/>
                             <constraint firstItem="mCd-AX-Oq7" firstAttribute="trailing" secondItem="LrF-Sy-mWV" secondAttribute="trailing" constant="30" id="qA6-dF-s8V"/>
                             <constraint firstItem="GXp-dw-Xi4" firstAttribute="top" secondItem="mCd-AX-Oq7" secondAttribute="top" constant="65" id="s0j-af-A5C"/>
                         </constraints>
