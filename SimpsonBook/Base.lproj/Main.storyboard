@@ -32,6 +32,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Hob-2A-Qix"/>
                     <connections>
+                        <outlet property="tblSimpsons" destination="ThW-N2-R7a" id="HaK-cK-ccK"/>
                         <segue destination="aCm-Vw-vg5" kind="show" identifier="showDetailSegue" id="5iV-Zk-yQP"/>
                     </connections>
                 </viewController>
